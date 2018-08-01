@@ -1,0 +1,99 @@
+body{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #777777;
+	color: #777;
+}
+
+.container{
+	position: relative;
+	background-color: #777777;
+	padding-bottom: 70px;
+}
+
+.sub-container{
+	margin: auto;
+	width: 70%;
+	padding-top: 1px;
+}
+
+.header p, .nav p, .footer p{
+	text-align: center;
+	padding: 20px 0;
+	background-color: #EBEBEB;
+}
+
+.header{
+	margin-bottom: -8px;
+}
+
+.nav{
+	margin-bottom: -23px;
+}
+
+.mid-container p{
+	text-align: center;
+    margin-top: 20px;
+    background-color: #EBEBEB;
+    padding-bottom: 13px;
+}
+
+.left-subcontainer{
+	float: left;
+    width: 49%;
+    margin-bottom: 11px;
+    margin-top: 17px;
+    position: relative;
+    background-color: #EBEBEB;
+}
+
+.left-subcontainer p{
+	padding: 6px 0 15px 0;
+}
+
+.article-container{
+	margin: -11px auto 4% auto;
+    width: 96%;
+    background-color: #777777;
+    overflow: hidden;
+}
+
+.article-container p{
+	text-align: center;
+    padding: 10px 0;
+    background-color: #777777;
+    margin: 0;
+	color: #ebebeb;
+}
+
+.headings{
+	width: 80%;
+	margin:auto;
+	margin-top: 2px;
+	background-color: #777777;
+}
+
+.subheading-container p, .subparagraph-container p{
+	color: #777;
+	background-color: #EBEBEB;
+	margin: 0 0 15px 0;
+}
+
+.right-subcontainer{
+	float: right;
+    width: 49%;
+    overflow: hidden;
+    margin-top: -3px;
+}
+
+.right-subcontainer p{
+	padding: 26px 0 0 0;
+	height: 100%;
+}
+
+.footer{
+	clear: both;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 1px;
+}

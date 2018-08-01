@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Homework #1 - Easy Version</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		
+			/* To adjust the size of the right hand side container inside the div class="mid-container", based on the size of the left hand side container*/
+			var left_container_height = 0;
+		
+			$(document).ready(function(){
+				left_container_height = $(".left-subcontainer").height();
+				$(".right-subcontainer").height(left_container_height + 20);
+			});
+			
+			$(window).resize(function(){
+				left_container_height = $(".left-subcontainer").height();
+				$(".right-subcontainer").height(left_container_height + 20);
+			});
+			/***********************/
+			
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="sub-container">
+				<!-- Header -->
+				<div class="header">
+					<p>header</p>
+				</div>
+				
+				<!-- Navigation -->
+				<div class="nav">
+					<p>nav</p>
+				</div>
+				
+				<!-- Mid Section -->
+				<div class="mid-container">
+				
+					<!-- section -->
+					<div class="left-subcontainer">
+						<p>section</p>
+						<div class="article-container">
+							<p>article</p>
+							<!-- headings -->
+							<div class="headings">
+								<!-- subheading -->
+								<div class="subheading-container">
+									<p><strong>h1,h2,h3</strong></p>
+								</div>
+								
+								<!-- paragraph -->
+								<div class="subparagraph-container">
+									<p>p</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!-- aside -->
+					<div class="right-subcontainer">
+						<p>aside</p>
+					</div>
+				</div>	
+			</div>
+			
+			<!-- Footer -->
+			<div class="footer">
+				<p>footer</p>
+			</div>
+		</div>
+	</body>
+</html>
